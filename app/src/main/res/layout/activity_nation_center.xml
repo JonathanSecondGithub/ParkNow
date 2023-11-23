@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="450dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="-110dp"
+        app:srcCompat="@drawable/virah1" />
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="N a t i o n  C e n t r e"
+        android:gravity="center"
+        android:layout_marginTop="300dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Your Parking Slot"
+        android:gravity="center"
+        android:layout_marginTop="350dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/green"
+        android:text="NC_1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/green"
+        android:text="NC_2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/green"
+        android:text="NC_3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/green"
+        android:text="NC_4" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button4"
+        android:layout_marginTop="30dp"
+        android:text="BACK"
+        android:backgroundTint="#6B9AA4"
+        android:id="@+id/backbutton"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="450dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="-110dp"
+        app:srcCompat="@drawable/virah1" />
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M o i  A v e n u e"
+        android:gravity="center"
+        android:layout_marginTop="300dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Your Parking Slot"
+        android:gravity="center"
+        android:layout_marginTop="350dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MV_1"
+        android:layout_below="@id/textview2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/green"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MV_2"
+        android:layout_below="@id/button1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/green"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MV_3"
+        android:layout_below="@id/textview2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/green"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MV_4"
+        android:layout_below="@id/button3"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/green"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button4"
+        android:layout_marginTop="30dp"
+        android:text="BACK"
+        android:backgroundTint="#6B9AA4"
+        android:id="@+id/backbutton"
+        />
+
+
+</RelativeLayout>

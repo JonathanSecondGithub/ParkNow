@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "860331158529",
+    "firebase_url": "https://parknow-9fa39-default-rtdb.firebaseio.com",
+    "project_id": "parknow-9fa39",
+    "storage_bucket": "parknow-9fa39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860331158529:android:b81ef2acaa46c82d7f2400",
+        "android_client_info": {
+          "package_name": "com.example.parknow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAr80D8RffkW7MVhp0YMn4mysj6afJu-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
